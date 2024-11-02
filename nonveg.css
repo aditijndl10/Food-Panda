@@ -1,0 +1,78 @@
+table
+{
+  margin: auto; 
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 15px; 
+  margin-top: 162px;
+  font-weight: 800;
+}
+
+  
+  th
+{
+  color: rgb(241, 253, 178); 
+  font-size: 30px; 
+  padding: 15px; 
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 50px;
+  margin: auto; 
+  padding: 15px; 
+  margin-top: 140px;
+}
+   
+ 
+
+  td 
+  {
+    padding: 15px; 
+    text-align: center; 
+    font-size: 19.2px; 
+    margin: auto; 
+    padding: 15px; 
+    margin-top: 140px;
+  } 
+   
+  
+  h3
+  {
+      color: rgb(213, 47, 102);
+  }
+  
+  
+  table a {
+    text-decoration: none; 
+    color: inherit; 
+  }
+
+  .bg-image {
+ position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:unset;
+    z-index: -1;
+  }
+
+
+.heart-checkbox {
+  display: none;
+}
+
+
+.heart-icon
+{
+  color: gray; 
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 5px; 
+}
+
+
+.heart-checkbox:checked + .heart-icon
+{
+  color: red; 
+}
+

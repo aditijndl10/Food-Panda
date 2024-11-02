@@ -1,0 +1,72 @@
+ 
+table {
+  width: 60%;
+  margin: 5%auto; 
+  color: rgb(11, 107, 23);
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  border-radius: 10px;
+  border-collapse: collapse; 
+}
+
+
+
+  th {
+   color: rgb(16, 9, 91);
+    font-size: 45.5px; 
+    padding: 5px; 
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 50px;
+    margin: auto; 
+    padding: 15px; 
+    margin-top: 120px;
+   
+    
+  }
+   
+ 
+  td {
+    padding: 15px; 
+    text-align: center; 
+    font-size: 19.29px; 
+    margin: auto; 
+    padding: 15px; 
+    margin-top: 140px;
+   
+
+  } 
+
+
+table a {
+  text-decoration: none; 
+  color: inherit;
+ 
+}
+
+
+.bg-image {
+  position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit:cover;
+     z-index: -1;
+   }
+  
+
+.heart-checkbox {
+  display: none;
+}
+
+
+.heart-icon {
+  color: gray; 
+  cursor: pointer; 
+  font-size: 25px; 
+}
+
+.heart-checkbox:checked + .heart-icon {
+  color: red;
+}
+
